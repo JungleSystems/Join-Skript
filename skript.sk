@@ -1,0 +1,8 @@
+on first join:
+	set join message to "[New] %player%"
+on join:
+	player has played before
+	set join message to "[+] %player%"
+
+on quit:
+	set quit message to "[-] %player%"
